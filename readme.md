@@ -48,22 +48,22 @@ This project provides a set of linguistic analysis tools for German (and multi-l
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    Consolidated Linguistics Hub                  │
+│                    Consolidated Linguistics Hub                 │
 │                        (nlp-app.py)                             │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐         │
-│  │   spaCy      │  │ LanguageTool │  │  Pattern.de  │         │
-│  │  Analyzer    │  │   Grammar    │  │  Inflections │         │
-│  │              │  │   Checker    │  │              │         │
-│  └──────────────┘  └──────────────┘  └──────────────┘         │
-│                                                                  │
-│  ┌──────────────┐  ┌────────────────────────────────┐         │
-│  │   OdeNet     │  │   Comprehensive Analyzer       │         │
-│  │  Thesaurus   │  │   (All Tools Combined)         │         │
-│  │              │  │                                │         │
-│  └──────────────┘  └────────────────────────────────┘         │
-│                                                                  │
+│                                                                 │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐           │
+│  │   spaCy      │  │ LanguageTool │  │  Pattern.de  │           │
+│  │  Analyzer    │  │   Grammar    │  │  Inflections │           │
+│  │              │  │   Checker    │  │              │           │
+│  └──────────────┘  └──────────────┘  └──────────────┘           │
+│                                                                 │
+│  ┌──────────────┐  ┌────────────────────────────────┐           │
+│  │   OdeNet     │  │   Comprehensive Analyzer       │           │
+│  │  Thesaurus   │  │   (All Tools Combined)         │           │
+│  │              │  │                                │           │
+│  └──────────────┘  └────────────────────────────────┘           │
+│                                                                 │
 ├─────────────────────────────────────────────────────────────────┤
 │                         Gradio API Layer                        │
 │              /get_morphology | /check_grammar                   │
