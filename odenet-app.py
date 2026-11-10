@@ -142,7 +142,7 @@ def process_word_lookup(word: str) -> Dict[str, Any]:
             lemmas: Set[str] = set()
             for s in synsets:
                 for lemma in s.lemmas():
-                    if not (remove_self and lemma == word):
+                    if not (remove_self and lemma.lower() == word):  # OdeNet capitalises nouns
                         lemmas.add(lemma)
             return sorted(list(lemmas))
         
